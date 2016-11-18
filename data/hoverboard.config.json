@@ -1,9 +1,9 @@
 {
   "firebase": {
-    "name": "hoverboard-master",
-    "domain": "hoverboard-master.firebaseapp.com",
-    "database": "https://hoverboard-master.firebaseio.com",
-    "api": "AIzaSyCaSkhtHekxAqXXzzbuNs2s6CpGdhZdta8",
+    "name": "DevFest2016",
+    "domain": "devfest2016-b5e94.firebaseapp.com",
+    "database": "https://devfest2016-b5e94.firebaseio.com",
+    "api": "AIzaSyClPKcETwqzxXNDlLcGDwzU-ubA3y1YoUA",
     "userSessionsPath": "/userSessions"
   },
   "pages": {
@@ -14,11 +14,11 @@
         "fontColor": "#fff",
         "tabBarColor": "#fff",
         "video": {
-          "title": "GDG DevFest Ukraine 2016",
+          "title": "GDG DevFest Zhengzhou 2016",
           "youtubeId": "TdpbgRgz6eE",
           "text": "See how it was in 2016"
         },
-        "hideLogo": true,
+        "hideLogo": false,
         "minHeight": "360px"
       }
     },
@@ -64,10 +64,6 @@
       "permalink": "/"
     },
     {
-      "route": "blog",
-      "permalink": "/blog/"
-    },
-    {
       "route": "schedule",
       "permalink": "/schedule/"
     },
@@ -80,7 +76,7 @@
       "permalink": "/team/"
     }
   ],
-  "url": "https://hoverboard.firebaseapp.com/",
+  "url": "https://devfest2016-b5e94.firebaseapp.com/",
   "mailchimp": {
     "url": "https://gdg.us11.list-manage.com/subscribe/post?u=b7e853a79164ddfdbda3ed77b&amp;id=7993e39fbe",
     "name": "b_b7e853a79164ddfdbda3ed77b_7993e39fbe"
@@ -89,12 +85,8 @@
   "disqusShortName": "hoverboard-gdg-x",
   "languages": [
     {
-      "name": "English",
-      "key": "en"
-    },
-    {
-      "name": "Українська",
-      "key": "uk"
+      "name": "中文",
+      "key": "zh_CN"
     }
   ],
   "footerBlocks": [
@@ -102,46 +94,18 @@
       "title": "for-visitors",
       "links": [
         {
-          "text": "team",
-          "url": "/team/"
-        },
-        {
-          "text": "cod",
-          "url": "/cod/"
-        },
-        {
           "text": "google-developers",
           "url": "https://developers.google.com/",
           "newTab": true
         },
         {
           "text": "df-13",
-          "url": "http://gdg-devfest-ua.appspot.com/",
-          "newTab": true
-        },
-        {
-          "text": "df-14",
-          "url": "http://devfest.gdg.org.ua/2014/",
+          "url": "http://gdgzhengzhou.org/",
           "newTab": true
         },
         {
           "text": "df-15",
-          "url": "http://devfest.gdg.org.ua/2015/",
-          "newTab": true
-        }
-      ]
-    },
-    {
-      "title": "for-partners",
-      "links": [
-        {
-          "text": "partnership-proposition",
-          "url": "http://bit.ly/df16-sponsor",
-          "newTab": true
-        },
-        {
-          "text": "media-kit",
-          "url": "http://bit.ly/df16-media",
+          "url": "http://www.gdgzhengzhou.org/events/gdg-event-devfest-2015.html",
           "newTab": true
         }
       ]
@@ -150,38 +114,21 @@
   "contactBlock": {
     "links": [
       {
-        "text": "devfest@google.com",
-        "url": "mailto:devfest@google.com"
+        "text": "zhengzhougdg@gmail.com",
+        "url": "mailto:zhengzhougdg@gmail.com"
       }
     ]
   },
   "tickets": {
-    "url": "http://2event.com/events/630032",
+    "url": "https://www.gdgdocs.org/r/PeSGtj",
     "elements": [
       {
         "name": "student-ticket",
-        "price": 500,
-        "currency": "₴",
+        "price": "0",
+        "currency": "元",
         "starts": "student-ticket-starts",
         "ends": "student-ticket-ends",
         "info": "student-ticket-info",
-        "soldOut": false
-      },
-      {
-        "name": "early-ticket",
-        "price": 750,
-        "currency": "₴",
-        "starts": "early-ticket-starts",
-        "ends": "early-ticket-ends",
-        "info": "early-ticket-info",
-        "soldOut": true
-      },
-      {
-        "name": "lazy-ticket",
-        "price": 1000,
-        "currency": "₴",
-        "starts": "lazy-ticket-starts",
-        "ends": "lazy-ticket-ends",
         "soldOut": false
       }
     ]
@@ -190,16 +137,16 @@
   "teamPageText": "team-page-text",
   "statistics": [
     {
-      "counter": 600,
+      "counter": 30,
       "caption": "attendees"
     },
     {
-      "counter": 2,
-      "caption": "days"
+      "counter": 0.5,
+      "caption": "Days"
     },
     {
-      "counter": 30,
-      "caption": "sessions"
+      "counter": 5,
+      "caption": "Sessions"
     },
     {
       "counter": 3,
@@ -209,29 +156,34 @@
   "hashtag": "dfua",
   "social": [
     {
-      "name": "twitter",
-      "nickname": "GDGLviv",
-      "url": "https://twitter.com/gdglviv"
+      "name": "website",
+      "nickname": "郑州GDG",
+      "url": "http://weibo.com/zzgdg"
     },
     {
       "name": "gplus",
-      "nickname": "102444623953913144164",
-      "url": "https://plus.google.com/102444623953913144164"
+      "nickname": "GDG Zhengzhou",
+      "url": "https://plus.google.com/+GDGZhengzhou"
     },
     {
-      "name": "facebook",
-      "nickname": "GDGLviv",
-      "url": "https://www.facebook.com/GDGLviv"
+      "name": "website",
+      "nickname": "官网",
+      "url": "http://gdgzhengzhou.org"
     },
     {
-      "name": "linkedin",
-      "nickname": "google-developers-group-lviv",
-      "url": "https://www.linkedin.com/company/google-developers-group-lviv"
+      "name": "website",
+      "nickname": "邮件组",
+      "url": "http://t.cn/RLaCQEJ"
+    },
+    {
+      "name": "website",
+      "nickname": "QQ群",
+      "url": "http://qun.qzone.qq.com/group#!/277803370/share"
     }
   ],
   "tweetsSource": "/data/tweets.json",
   "gallery": {
-    "albumUrl": "https://plus.google.com/events/gallery/cc6tosp4ohkp6qj9pg5jb4g6o3k?sort=1",
+    "albumUrl": "http://www.gdgzhengzhou.org/events/gdg-event-devfest-2015.html",
     "photos": {
       "big": "/images/backgrounds/2015_1.jpg",
       "small": [
@@ -244,18 +196,17 @@
     "apiKey": "",
     "link": "https://www.facebook.com/expopivdennij",
     "pointer": {
-      "latitude": 49.809841,
-      "longitude": 23.972805,
+      "latitude": 34.7963174,
+      "longitude": 113.6952603,
       "zoom": 15
     },
     "mapCenter": {
-      "latitude": 49.809841,
-      "longitude": 23.982805
+      "latitude": 34.7963174,
+      "longitude": 113.6952603
     },
     "images": [
       "/images/backgrounds/location_1.jpg",
-      "/images/backgrounds/location_2.jpg",
-      "/images/backgrounds/location_3.jpg"
+      "/images/backgrounds/location_2.jpg"
     ]
   },
   "videosSessionsUrl": "https://www.youtube.com/playlist?list=PLt8lEzcLNl31AX3-ONkkWmDOZezu9Cmnv",
